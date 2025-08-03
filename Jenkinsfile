@@ -31,10 +31,6 @@ pipeline {
             }
         }
 
-        stage('Compilar assets (opcional)') {
-            steps {
-                sh 'npm install && npm run build || true'
-            }
-        }
+        
     }
 } 
