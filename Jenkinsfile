@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/tu-usuario/jenkins-laravel-demo.git'
+                git branch: 'main', url: 'https://github.com/alvaroRojasChaval/laravelDiplomado.git'
             }
         }
 
